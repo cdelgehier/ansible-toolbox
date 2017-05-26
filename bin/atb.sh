@@ -28,7 +28,7 @@ readonly cyan='\e[0;36m'
 readonly debug_mode='on'
 
 # Script configuration
-readonly role_skeleton='https://github.com/bertvv/ansible-role-skeleton'
+readonly role_skeleton='https://github.com/cdelgehier/ansible-role-skeleton'
 readonly skeleton_download_dir="$(mktemp --directory)"
 #}}}
 

@@ -3,7 +3,7 @@
 # Author:   Bert Van Vreckem <bert.vanvreckem@gmail.com>
 #
 # Initialise an Ansible project, based on
-# https://github.com/bertvv/ansible-skeleton/
+# https://github.com/cdelgehier/ansible-skeleton/
 
 set -u # abort on unbound variable
 
@@ -16,7 +16,7 @@ usage() {
 cat << _EOF_
 Usage: ${0} PROJECT_NAME [ROLE]...
   Initialises a Vagrant+Ansible project based on
-  https://github.com/bertvv/ansible-skeleton
+  https://github.com/cdelgehier/ansible-skeleton
   and optionally, installs the specified roles from Ansible Galaxy
 _EOF_
 }
@@ -62,7 +62,7 @@ shift
 #}}}
 # Script proper
 
-wget https://github.com/bertvv/ansible-skeleton/archive/master.zip
+wget https://github.com/cdelgehier/ansible-skeleton/archive/master.zip
 unzip master.zip
 rm master.zip
 

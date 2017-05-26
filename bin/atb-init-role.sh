@@ -43,14 +43,14 @@ fi
 #}}}
 #{{{ Variables
 role_name="$1"
-role_skeleton="https://github.com/bertvv/ansible-role-skeleton"
+role_skeleton="https://github.com/cdelgehier/ansible-role-skeleton"
 
 download_dir="/tmp/role-skeleton"
 role_dir="${PWD}/${role_name}"
 
 # Your github username (only used in instructions for pushing to Github
 # at the end of the script).
-github_username=bertvv
+github_username=cdelgehier
 #}}}
 
 # Script proper
